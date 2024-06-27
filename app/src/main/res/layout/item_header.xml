@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pTV"
+            android:layout_width="5dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="#"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/eTV"
+            android:layout_width="5dp"
+            android:layout_height="25dp"
+            android:layout_weight="3"
+            android:backgroundTint="@color/black"
+            android:text="Equipo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pjTV"
+            android:layout_width="5dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.8"
+            android:backgroundTint="@color/black"
+            android:text="PJ"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/gTV"
+            android:layout_width="5dp"
+            android:layout_height="25dp"
+            android:layout_weight="1.2"
+            android:backgroundTint="@color/black"
+            android:text="G"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ptsTV"
+            android:layout_width="5dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Pts"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="5sp"
+         android:backgroundTint="@color/black">
+     </Button>
+
+</LinearLayout>
