@@ -70,6 +70,7 @@ class AdminLogin : AppCompatActivity(), TournamentAdapter.OnItemClickListener {
             }
         }
 
+
         val btnNewTournament = findViewById<Button>(R.id.btnNewTournament)
         btnNewTournament.setOnClickListener {
             navigateToNewTournament()

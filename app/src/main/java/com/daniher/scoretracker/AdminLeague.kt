@@ -34,7 +34,7 @@ class AdminLeague : AppCompatActivity() {
 
     private fun logInAdmin(email: String, password: String) {
         if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Por favor, ingrese usuario y contraseña", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Por favor, ingrese usuario y contraseña.", Toast.LENGTH_SHORT).show()
             return
         }
         firebaseAuth.signInWithEmailAndPassword(email, password)

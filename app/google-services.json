@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "170910403350",
+    "project_id": "scoretracker-30ae9",
+    "storage_bucket": "scoretracker-30ae9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170910403350:android:203d27f5336754597b1e37",
+        "android_client_info": {
+          "package_name": "com.daniher.scoretracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170910403350-l2hfb0sd7gaujj31qne134q54glckgbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daniher.scoretracker",
+            "certificate_hash": "0490d0bc775e9fa3db3f6645f481da589510857b"
+          }
+        },
+        {
+          "client_id": "170910403350-l8db1lcvr4d9lj73blkteclqq465a8n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1uUSy-d2W1Aw76jybCI5EaiJf0VGd5lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170910403350-l8db1lcvr4d9lj73blkteclqq465a8n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
