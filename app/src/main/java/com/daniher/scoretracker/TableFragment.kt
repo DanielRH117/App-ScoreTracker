@@ -79,7 +79,6 @@ class TableFragment : Fragment(), TeamAdapter.OnItemClickListener {
                     }
                     .addOnFailureListener { _ ->
                     }
-            } else {
             }
         } else {
             Toast.makeText(
@@ -167,7 +166,9 @@ class TableFragment : Fragment(), TeamAdapter.OnItemClickListener {
                         "Equipo borrado correctamente.",
                         Toast.LENGTH_SHORT
                     ).show()
-                    reloadTeamsFromFirebase()
+                    // Eliminar el equipo de la lista local antes de actualizar la interfaz
+                    teams.remove(team)
+                    teamAdapter.notifyDataSetChanged()
                 }
                 .addOnFailureListener { exception ->
                     Toast.makeText(

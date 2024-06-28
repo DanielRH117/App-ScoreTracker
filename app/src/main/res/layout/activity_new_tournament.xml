@@ -30,13 +30,13 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="vertical"
             android:padding="15dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tv_explain"
                 android:textColor="@color/white"
@@ -50,6 +50,7 @@
                 android:backgroundTint="@color/white"
                 android:hint="@string/tv_tournamentName"
                 android:singleLine="true"
+                android:maxLines="1"
                 android:textColor="@color/background_text"
                 android:textColorHint="#FFFFFF"
                 android:textSize="30sp" />
@@ -72,14 +73,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="361dp"
-        android:layout_height="277dp"
+        android:layout_width="match_parent"
+        android:layout_height="343dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
         android:src="@drawable/ic_fship"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
