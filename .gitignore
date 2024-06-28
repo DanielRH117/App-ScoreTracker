@@ -31,3 +31,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Google Services (e.g. APIs or Firebase) inside app folder
+app/google-services.json
